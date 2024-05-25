@@ -54,7 +54,6 @@ class Portfolio:
         print(f"Total Portfolio Value: ${self.current_value():.2f}")
 
 if __name__ == "__main__":
-# Example usage:
     portfolio = Portfolio()
     while True:
         print("\nStock Portfolio Tracker Menu")
