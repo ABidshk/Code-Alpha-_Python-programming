@@ -2,7 +2,7 @@
 import random
 class hangGame:
     def __init__(self) -> None:
-        with open("C:\Users\mdabi\OneDrive\Documents\GitHub\CodeAlpha_Pythonprogramming\hangman game words.txt","r") as file:
+        with open("hangman game words.txt","r") as file:
                 word = file.read().splitlines()
         self.w = list(random.choice(word))
         print("WELCOME TO HANGMAN GAME")
